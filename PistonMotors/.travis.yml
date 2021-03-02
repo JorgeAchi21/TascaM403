@@ -1,0 +1,16 @@
+sudo:          false
+language:      node_js
+node_js:
+  - "node"
+install:       npm install
+script:
+  - npm test
+  - gulp
+cache:
+  directories:
+    - node_modules
+
+
+SELECT year, country, product, SUM(profit) AS profit
+FROM sales
+GROUP BY year, country, product WITH ROLLUP;

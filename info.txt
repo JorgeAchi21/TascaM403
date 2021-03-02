@@ -1,0 +1,9 @@
+Plantilla utilizada:
+plantilla: https://startbootstrap.com/template/small-business
+
+
+Pagina de personalizacion de bootstrap:
+https://getbootstrap.com/docs/3.4/customize/
+
+w3Schools color picker:
+https://www.w3schools.com/colors/colors_picker.asp
